@@ -53,7 +53,7 @@ const Paste = () => {
         />
         <button 
         onClick={handleReset}
-        className="w-[30%] sm:w-[5%] p-2 h-10 my-[15px] bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200 ease-in-out">
+        className="w-[30%] xl:w-[5%] p-2 h-10 my-[15px] bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200 ease-in-out">
           Reset
         </button>
       </div>
