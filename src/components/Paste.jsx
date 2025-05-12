@@ -75,34 +75,34 @@ const Paste = () => {
                   {new Date(paste.createdAt).toLocaleString()}
                 </p>
               </div>
-              <div className="flex gap-4 mt-4">
+              <div className="flex lg:gap-4 gap-2 mt-4">
                 <NavLink to={`/?pasteId=${paste._id}`}>
                   <button
                     onClick={() => handleEdit(paste._id)}
-                    className="bg-blue-500 text-white text-xs lg:text-2xl px-[2px] lg:px-4 py-[1px] lg:py-2 rounded-md hover:bg-blue-600 transition duration-200 ease-in-out">
+                    className="bg-blue-500 text-white text-xs lg:text-2xl px-[4px] lg:px-4 py-[2px] lg:py-2 rounded-md hover:bg-blue-600 transition duration-200 ease-in-out">
                     Edit
                   </button>
                 </NavLink>
                 <button
                   onClick={() => handleClick(paste._id)}
-                  className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition duration-200 ease-in-out text-xs lg:text-2xl px-[2px] lg:px-4 py-[1px] lg:py-2">
+                  className="bg-red-500 text-white  rounded-md hover:bg-red-600 transition duration-200 ease-in-out text-xs lg:text-2xl px-[4px] lg:px-4 py-[2px] lg:py-2">
                   Delete
                 </button>
                 <NavLink to={`/pastes/${paste._id}`}>
                   <button
                     onClick={() => handleView(paste._id)}
-                    className="bg-green-500 text-white text-xs lg:text-2xl px-[2px] lg:px-4 py-[1px] lg:py-2 rounded-md hover:bg-green-600 transition duration-200 ease-in-out">
+                    className="bg-green-500 text-white text-xs lg:text-2xl px-[4px] lg:px-4 py-[2px] lg:py-2 rounded-md hover:bg-green-600 transition duration-200 ease-in-out">
                     View
                   </button>
                 </NavLink>
                 <button
                   onClick={() => handleShare(paste._id)}
-                  className="bg-purple-500 text-white text-xs lg:text-2xl px-[2px] lg:px-4 py-[1px] lg:py-2 rounded-md hover:bg-purple-600 transition duration-200 ease-in-out">
+                  className="bg-purple-500 text-white text-xs lg:text-2xl px-[4px] lg:px-4 py-[2px] lg:py-2 rounded-md hover:bg-purple-600 transition duration-200 ease-in-out">
                   Share
                 </button>
                 <button
                   onClick={() => handleCopy(paste._id)}
-                  className="bg-gray-500 text-white text-xs lg:text-2xl px-[2px] lg:px-4 py-[1px] lg:py-2 rounded-md hover:bg-gray-600 transition duration-200 ease-in-out">
+                  className="bg-gray-500 text-white text-xs lg:text-2xl px-[4px] lg:px-4 py-[2px] lg:py-2 rounded-md hover:bg-gray-600 transition duration-200 ease-in-out">
                   Copy
                 </button>
               </div>
