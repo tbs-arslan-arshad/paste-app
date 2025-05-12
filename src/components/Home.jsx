@@ -55,7 +55,7 @@ const Home = () => {
         />
         <button
           onClick={createPaste}
-          className="w-[40%] sm:w-[15%] text-sm text-2xl px-2 h-10 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200 ease-in-out">
+          className="w-[40%] lg:w-[15%] text-xs lg:text-2xl px-2 h-10 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200 ease-in-out">
           {pasteId ? "Update My Paste" : "Create My Paste"}
         </button>
       </div>
